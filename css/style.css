@@ -15,6 +15,13 @@ main{
 }
 /* /sfondi bianchi */
 
+/* border-radius: */
+.header,.container,.nav-click,.nav-unclick{
+    /* border-radius: ; */
+}
+/* /border-radius: */
+
+
 /* imposta elementi da visualizzare sulla stessa riga, di predefinito impostati su display:block */
 #titolo-logo,.nav-click,.nav-unclick{
     display: inline-block;
@@ -36,10 +43,6 @@ a{
     border: 1px #c1c1c1 solid;
 }
 
-.nav-click,.nav-unclick{
-    /* border-radius: ; */
-}
-
 .link-white{
     color:white;
 }
@@ -48,12 +51,22 @@ a{
 }
 /* nav */
 
-
-
-.container{
-    margin-top:2px;
-}
 .navbar,.container{
     padding: 3% 10% 2%;
 }
 
+/* container */
+.container{
+    margin-top:2px;
+}
+
+/*
+.task-title::before{
+    content:;
+}
+*/
+
+.container a {
+    color:white;
+}
+/*container */
