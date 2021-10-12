@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f6f8f9;
 }
 main{
@@ -23,7 +24,13 @@ a{
 
 .header-inline{
     display: inline-block;
+    vertical-align: middle;
 }
+
+#title-logo{
+    font-weight: 900;
+}
+
 /* /HEADER */
 
 
