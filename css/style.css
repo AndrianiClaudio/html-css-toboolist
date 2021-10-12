@@ -4,6 +4,35 @@ body{
     box-sizing: border-box;
 }
 
-#titolo-logo{
+/* imposta elementi da visualizzare sulla stessa riga, di predefinito impostati su display:block */
+#titolo-logo,.nav-click,.nav-unclick{
     display: inline-block;
 }
+/* Fine inline-block */
+
+/* formattazione link,non evidenziati bianchi */
+a{
+    text-decoration: none;
+}
+/* /formattazione link */
+
+/* nav */
+.nav-click{
+    background-color: #47adf1;
+}
+
+.nav-unclick{
+    border: 1px #c1c1c1 solid;
+}
+
+.nav-click,.nav-unclick{
+    /* border-radius: ; */
+}
+
+.link-white{
+    color:white;
+}
+.link-lightgrey{
+    color: #cfd4d8;
+}
+/* nav */
