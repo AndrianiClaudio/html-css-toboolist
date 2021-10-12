@@ -9,7 +9,7 @@ body{
     background-color: #f6f8f9;
 }
 main{
-    margin: 4% 18%;
+    margin: 4% 18% 1%;
 }
 
 a{
@@ -89,6 +89,9 @@ a{
 
 
 /* lista */
+ul::after{
+    margin-left: 10px;
+}
 .container > ul{
     padding-bottom: 2%;
 }
@@ -109,22 +112,23 @@ a{
 }
 
 .task-title{
-    padding: 1% 0%;
+    padding:  0.5% 1%;
     font-size: 1.7em;
 }
 
 .task-activity{
     margin-left:2%;
-    padding: 2% auto;
 }
 
 .task-activity li{
-    font-size:1.2em;
+    font-size:1.3em;
 }
 
 /* link */
 .link-editorial,.link-q1goals,.link-recruiting,.link-mobile,.link-website,.link-sales{
     font-size: 0.7em;
+    padding: 3px 15px;
+    border-radius: 10px;
 }
 .link-editorial{
     background-color: #45abea;
