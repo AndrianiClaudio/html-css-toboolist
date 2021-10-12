@@ -34,7 +34,28 @@ a{
 }
 /* /formattazione link */
 
+
+/* header */
+/* dimensioni logo: 53x54 */
+.header{
+    padding: 3px 10px;
+    height: 60px;
+    width: 100%;
+}
+/* 
+#img-logo{
+}
+#title-logo{
+    
+} */
+/* /header */
+
+
 /* nav */
+.nav-click,.nav-unclick{
+    padding: 5px;
+    border-radius: 12%;
+}
 .nav-click{
     background-color: #47adf1;
 }
@@ -43,10 +64,11 @@ a{
     border: 1px #c1c1c1 solid;
 }
 
-.link-white{
+.nav-white{
+    font-size: 0.8em;
     color:white;
 }
-.link-lightgrey{
+.nav-lightgrey{
     color: #cfd4d8;
 }
 /* nav */
