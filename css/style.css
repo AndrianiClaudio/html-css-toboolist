@@ -2,7 +2,18 @@ body{
     margin:0 auto;
     padding:0;
     box-sizing: border-box;
+    background-color: #f6f8f9;
 }
+
+main{
+    margin: 5% 20%;
+}
+
+/* sfondi bianchi */
+.header,.navbar,.container{
+    background-color: white;
+}
+/* /sfondi bianchi */
 
 /* imposta elementi da visualizzare sulla stessa riga, di predefinito impostati su display:block */
 #titolo-logo,.nav-click,.nav-unclick{
@@ -36,3 +47,13 @@ a{
     color: #cfd4d8;
 }
 /* nav */
+
+
+
+.container{
+    margin-top:2px;
+}
+.navbar,.container{
+    padding: 3% 10% 2%;
+}
+
