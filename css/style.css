@@ -9,7 +9,7 @@ body{
     background-color: #f6f8f9;
 }
 main{
-    margin: 5% 20%;
+    margin: 4% 18%;
 }
 
 a{
@@ -38,16 +38,22 @@ a{
 /* MAIN */
 .navbar,.container{
     background-color: white;
-    padding: 3% 10% 2%;
+    padding-left: 7%;
+    border-radius: 2%;
 }
 
 /* navbar */
+.navbar{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
 .nav-click,.nav-unclick{
     display: inline-block;
 }
 .nav-click,.nav-unclick{
-    padding: 5px;
-    border-radius: 12%;
+    padding: 3px 15px;
+    border-radius: 8%;
 }
 .nav-click{
     background-color: #47adf1;
@@ -57,8 +63,11 @@ a{
     border: 1px #c1c1c1 solid;
 }
 
-.nav-white{
+.nav-white,.nav-lightgrey{
     font-size: 0.8em;
+}
+
+.nav-white{
     color:white;
 }
 .nav-lightgrey{
@@ -70,7 +79,8 @@ a{
 
 /* container */
 .container{
-    margin-top:2px;
+    margin-top: 2px;
+    padding-top: 3%;
 }
 
 /*
