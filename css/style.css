@@ -1,57 +1,43 @@
-body{
+*{
     margin:0 auto;
     padding:0;
     box-sizing: border-box;
-    background-color: #f6f8f9;
 }
 
+body{
+    background-color: #f6f8f9;
+}
 main{
     margin: 5% 20%;
 }
 
-/* sfondi bianchi */
-.header,.navbar,.container{
-    background-color: white;
-}
-/* /sfondi bianchi */
-
-/* border-radius: */
-.header,.container,.nav-click,.nav-unclick{
-    /* border-radius: ; */
-}
-/* /border-radius: */
-
-
-/* imposta elementi da visualizzare sulla stessa riga, di predefinito impostati su display:block */
-#titolo-logo,.nav-click,.nav-unclick{
-    display: inline-block;
-}
-/* Fine inline-block */
-
-/* formattazione link,non evidenziati bianchi */
 a{
     text-decoration: none;
 }
-/* /formattazione link */
-
-
-/* header */
-/* dimensioni logo: 53x54 */
+/* HEADER */
 .header{
+    background-color: white;
     padding: 3px 10px;
-    height: 60px;
     width: 100%;
 }
-/* 
-#img-logo{
+
+.header-inline{
+    display: inline-block;
 }
-#title-logo{
-    
-} */
-/* /header */
+/* /HEADER */
 
 
-/* nav */
+
+/* MAIN */
+.navbar,.container{
+    background-color: white;
+    padding: 3% 10% 2%;
+}
+
+/* navbar */
+.nav-click,.nav-unclick{
+    display: inline-block;
+}
 .nav-click,.nav-unclick{
     padding: 5px;
     border-radius: 12%;
@@ -71,11 +57,9 @@ a{
 .nav-lightgrey{
     color: #cfd4d8;
 }
-/* nav */
+/* /navbar */
 
-.navbar,.container{
-    padding: 3% 10% 2%;
-}
+
 
 /* container */
 .container{
@@ -92,3 +76,5 @@ a{
     color:white;
 }
 /*container */
+
+/* MAIN */
